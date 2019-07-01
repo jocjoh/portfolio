@@ -1,0 +1,67 @@
+h1 {
+  color: white;
+  font-family: "Verdana", Sans-serif;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #BCAC9C;
+  background-color: #9CACBC;
+}
+
+nav {
+  color: #BCAC9C;
+  font-family: "Verdana", sans-serif;
+  border-style: dashed;
+  border-color: #9CACBC;
+  border-width: 1px;
+  background-color: white;
+}
+
+h2 {
+  color: #9CACBC;
+  font-family: "Verdana", sans-serif;
+}
+
+h3 {
+  color: #BCAC9C;
+  font-family: "Verdana", sans-serif;
+}
+
+p {
+  color: #BCAC9C;
+  font-family: "Verdana", sans-serif
+}
+
+body {
+  background-color: #D6DDE5;
+}
+
+img:hover {
+  border-style: dashed;
+  border-color: #9DC9F6;
+  opacity: 0.5;
+}
+
+a[href="https://github.com/jocjoh/semantic-elements"]:hover {
+  background-color: #84AFDC
+}
+
+a[href="#"]:hover {
+   background-color: #84AFDC;
+ }
+
+aside {
+  color: violet;
+  font-family: "Verdana", sans-serif;
+}
+.first-paragraph {
+  color: cornsilk;
+}
+
+.heading {
+  color: cornsilk;
+  text-shadow: 3px 2px gray;
+}
+
+a[href="https://oregonstate.edu"]:hover {
+   background-color: #84AFDC;
+}
