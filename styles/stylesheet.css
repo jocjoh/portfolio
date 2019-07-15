@@ -65,3 +65,23 @@ aside {
 a[href="https://oregonstate.edu"]:hover {
    background-color: #84AFDC;
 }
+
+.fas {
+  color: violet;
+  font-size: 2em;
+}
+
+.fab {
+  color: violet;
+  font-size: 2em;
+}
+
+.far {
+  color: violet;
+  font-size: 2em;
+}
+
+footer {
+  font-size: small;
+  text-align: center;
+}
