@@ -26,7 +26,7 @@ h2 {
 }
 
 h3 {
-  color: #BCAC9C;
+  color: #9CACBC;
   font-family: 'Lato', sans-serif;
 }
 
@@ -59,7 +59,7 @@ aside {
 }
 
 .heading {
-  color: cornsilk;
+  color: white;
   text-shadow: 3px 2px gray;
 }
 
@@ -87,4 +87,21 @@ footer {
   font-size: small;
   text-align: center;
   font-family: 'Lato', sans-serif;
+}
+
+.box {
+  height: 300px;
+  width: 300px;
+  background: #D6DDE5;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+img {
+  align: center;
+  border: white solid 5px;
 }
