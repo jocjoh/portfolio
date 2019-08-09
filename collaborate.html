@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Collaborate</title>
+    <script src="https://kit.fontawesome.com/e418cb4dcb.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+  </head>
+  <body>
+    <header>
+      <h1>Learning to code</h1>
+      <nav>
+        <a href="index.html">Portfolio</a> /
+        <a href="about-me.html">About me</a> /
+        Collaborate
+      </nav>
+    </header>
+    <h2>Let's work together!</h2>
+    <h3>I'd love to work with you! Please answer all questions below (the more I know, the more I can help).</h3>
+    <form method="GET">
+      <label>What's your first name?
+        <input type="text" name="firstName">
+      </label>
+
+      <label>What's your last name?
+        <input type="text" name="lastName">
+      </label>
+
+      <label>What city do you live in?
+        <input type="text" name="collaboratorCity">
+      </label>
+
+      <label>What's your email?
+        <input type="email" name="collaboratorEmail">
+      </label>
+
+      <label>How many years of experience do you have?
+        <input type="number" name="yearsCount">
+      </label>
+
+      <fieldset>
+        <legend>Are you working for a company or on your own?</legend>
+        <label>
+          <input type="radio" name="special" value="company">
+          With a company
+        </label>
+        <label>
+          <input type="radio" name="special" value="myself">
+          By myself
+        </label>
+      </fieldset>
+
+      <label>Tell me about your project.
+        <textarea name="collaboratorProject" rows="4" cols="50"></textarea>
+      </label>
+
+      <fieldset class="checkbox">
+        <legend>What types of services are you looking for?</legend>
+        <label>Web design
+          <input type="checkbox" name="type" value="webDesign">
+          <span class="checkmark"></span>
+        </label>
+        <label>Content creation
+          <input type="checkbox" name="type" value="contentCreation">
+          <span class="checkmark"></span>
+        </label>
+        <label>Starting from scratch
+          <input type="checkbox" name="type" value="startScratch">
+          <span class="checkmark"></span>
+        </label>
+      </fieldset>
+
+      <label>What is your timeline for this project?
+        <select name="hours">
+          <option value="">Please select</option>
+          <option value="few">3 months</option>
+          <option value="some">6 months</option>
+          <option value="many">more than 6 months</option>
+        </select>
+      </label>
+
+
+      <label>Want to follow my work? Enter a password to create an account.
+        <input type="password" name="accountPW">
+      </label>
+
+      <input type="submit" value="Submit">
+    </form>
+
+    <footer>
+      <p>This page created by Joce Johnson.</p>
+    </footer>
+
+  </body>
+</html>
