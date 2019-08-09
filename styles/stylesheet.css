@@ -50,21 +50,21 @@ img {
   transition: border-radius 0.5s;
 }
 
-a[href="https://github.com/jocjoh/semantic-elements"]:hover {
+.project:hover {
   background-color: #84AFDC;
   font-size: 1.5em;
 }
 
-a[href="https://github.com/jocjoh/semantic-elements"] {
+.project {
   transition: font-size 1s ease-in;
 }
 
-a[href="#"]:hover {
+.number:hover {
    background-color: #84AFDC;
    font-size: 1.5em;
 }
 
-a[href="#"] {
+.number {
   transition: font-size 1s ease-in;
 }
 
@@ -93,12 +93,12 @@ aside ul li:nth-child(odd) {
   color:violet;
 }
 
-a[href="https://oregonstate.edu"]:hover {
+.college:hover {
    background-color: #84AFDC;
    font-size: 1.5em;
 }
 
-a[href="https://oregonstate.edu"] {
+.college {
   transition: font-size 2s ease-in 1s;
 }
 
